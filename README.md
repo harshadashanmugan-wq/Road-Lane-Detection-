@@ -1,16 +1,17 @@
 Road Lane Detection Using MATLAB
-Computer Vision · MATLAB · Image Processing
 
-1. Project Description
-A short explanation of what your project does and why it is useful.
+This project implements road lane detection using MATLAB image processing techniques. It processes a highway image through grayscale conversion, Gaussian filtering, Canny edge detection, Region of Interest (ROI) masking, and Hough Transform to identify lane markings.
 
-3. Project Objectives
-- Detect road lane markings.
-- Identify lane boundaries using image processing.
-- Understand the Hough Transform.
-- 
-3. Technologies Used
-MATLAB, Image Processing Toolbox, Canny Edge Detection, ROI Masking and Hough Transform.
+Key Features:
+- Image preprocessing and noise reduction
+- Edge detection using the Canny method
+- Road region extraction using ROI masking
+- Lane line detection using the Hough Transform
+- Separate visualization of left and right lane lines
 
-4. Project Workflow
+Tools Used: MATLAB, Image Processing Toolbox
+
+Objective: To understand the fundamentals of computer vision and lane detection for automotive driver-assistance systems (ADAS).
+
+Project Workflow:
 Original Image → Grayscale → Gaussian Filter → Edge Detection → ROI Masking → Hough Transform → Final Output
