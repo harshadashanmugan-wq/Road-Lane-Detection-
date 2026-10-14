@@ -1,0 +1,60 @@
+ Road Lane Detection Using MATLAB
+
+1.Project Overview
+
+This project focuses on detecting road lane markings from a highway image using MATLAB and image processing techniques. The aim is to understand how computer vision can identify lane boundaries and support the development of Advanced Driver Assistance Systems (ADAS).
+
+The input road image is processed through multiple stages, including grayscale conversion, Gaussian filtering, Canny edge detection, Region of Interest (ROI) extraction, and Hough Transform-based line detection. The detected lane lines are then visualized separately for the left and right sides of the road.
+
+2. Objectives
+
+- Understand the fundamentals of image processing and computer vision.
+- Detect road edges and lane markings from a highway image.
+- Identify relevant road regions using ROI masking.
+- Apply the Hough Transform to detect straight-line segments.
+- Explore the basic principles behind lane detection in automotive applications.
+
+3. Technologies Used
+
+- **Programming Language:** MATLAB
+- **Toolbox:** Image Processing Toolbox
+- **Techniques:** Grayscale Conversion, Gaussian Filtering, Canny Edge Detection, ROI Masking, Hough Transform
+
+4. Project Workflow
+
+1. **Image Acquisition:** Read the highway image into MATLAB.
+2. **Grayscale Conversion:** Convert the RGB image into grayscale to simplify processing.
+3. **Gaussian Filtering:** Reduce image noise and smooth the image.
+4. **Edge Detection:** Apply the Canny edge detector to identify edges and lane markings.
+5. **Region of Interest (ROI):** Select the road region and exclude irrelevant areas.
+6. **Hough Transform:** Detect straight-line segments from the extracted edges.
+7. **Lane Separation:** Classify candidate lines into left and right lane groups.
+8. **Visualization:** Display the detected lines over the original image.
+
+5. Results
+
+The program displays the original image and the intermediate processing stages, followed by detected lane lines. The left and right lane candidates are visualized separately and together to demonstrate the lane-detection process.
+
+## Learning Outcomes
+
+Through this project, I gained practical experience with MATLAB image processing functions and learned how image preprocessing, edge detection, ROI selection, and line detection can be combined to identify road lane markings.
+
+This project also helped me explore the connection between computer vision and automotive safety applications such as lane departure warning and lane-keeping assistance.
+
+6. Limitations
+
+- The current implementation processes a single static road image.
+- Detection accuracy depends on image quality, lighting, road markings, and parameter selection.
+- The detected lines are candidate lane boundaries and may include unwanted lines.
+- Real-time video processing and vehicle-control integration are not implemented.
+
+7. Future Improvements
+
+- Extend lane detection to video streams.
+- Improve accuracy under different lighting and road conditions.
+- Add lane departure warning functionality.
+- Explore integration with other ADAS features.
+
+8. Conclusion
+
+This project provided a practical introduction to computer vision using MATLAB and demonstrated the fundamental steps involved in detecting road lane markings from an image. It serves as a foundation for exploring more advanced automotive perception and ADAS applications.
